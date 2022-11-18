@@ -12,7 +12,8 @@ app.use(json());
 app.use('/api/wallets', walletRoutes);
 app.use('/api/transactions', transactionRoutes);
 
-mongoose.connect('mongodb+srv://abhi123:Password%40123@cluster0.qbubzdd.mongodb.net/test', {
+main
+mongoose.connect('mongodb+srv://Abhishek5670:Abhishek5670@cluster0.cmkiy77.mongodb.net/test', {
     useNewUrlParser: true,
     useUnifiedTopology: true
   })
